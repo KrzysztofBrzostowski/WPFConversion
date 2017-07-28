@@ -1,0 +1,8 @@
+Length;meter;1
+Length;km;0,001
+Length;cm;100
+Length;foot;3,33
+Mass;kg;1
+Mass;gram;1000
+Speed;km/h;1
+Speed;mile/h;0,621

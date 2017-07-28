@@ -1,0 +1,13 @@
+E:\Bierzace2017\WPFConversion\WPFConversion\bin\Debug\WPFConversion.exe.config
+E:\Bierzace2017\WPFConversion\WPFConversion\obj\Debug\App.g.cs
+E:\Bierzace2017\WPFConversion\WPFConversion\obj\Debug\WPFConversion_MarkupCompile.cache
+E:\Bierzace2017\WPFConversion\WPFConversion\obj\Debug\WPFConversion.g.resources
+E:\Bierzace2017\WPFConversion\WPFConversion\obj\Debug\WPFConversion.Properties.Resources.resources
+E:\Bierzace2017\WPFConversion\WPFConversion\obj\Debug\WPFConversion.csproj.GenerateResource.Cache
+E:\Bierzace2017\WPFConversion\WPFConversion\bin\Debug\WPFConversion.exe
+E:\Bierzace2017\WPFConversion\WPFConversion\bin\Debug\WPFConversion.pdb
+E:\Bierzace2017\WPFConversion\WPFConversion\obj\Debug\WPFConversion.exe
+E:\Bierzace2017\WPFConversion\WPFConversion\obj\Debug\WPFConversion.pdb
+E:\Bierzace2017\WPFConversion\WPFConversion\obj\Debug\UI\MainWindow.baml
+E:\Bierzace2017\WPFConversion\WPFConversion\obj\Debug\UI\MainWindow.g.cs
+E:\Bierzace2017\WPFConversion\WPFConversion\obj\Debug\WPFConversion.csprojResolveAssemblyReference.cache

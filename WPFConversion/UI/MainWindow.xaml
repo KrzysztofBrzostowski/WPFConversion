@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFConversion.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="387" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="1. Choose conversion kind:" Height="28" HorizontalAlignment="Left" Margin="74,50,0,0" Name="label1" VerticalAlignment="Top" Width="163" />
+        <ComboBox SelectedIndex="0" SelectedValue="{Binding Model.Operation}" ItemsSource="{Binding Model.OperationTypes}" Height="28" HorizontalAlignment="Left" Margin="303,50,0,0" Name="cbOperationTypes" VerticalAlignment="Top" Width="120" />
+        <Label Content="2. Input value:" Height="28" HorizontalAlignment="Left" Margin="74,100,0,0" Name="label2" VerticalAlignment="Top" Width="163" />
+        <TextBox Text="{Binding Model.InputValue}" Height="28" HorizontalAlignment="Left" Margin="303,100,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" />
+        <Label Content="3. Input start unit:" Height="28" HorizontalAlignment="Left" Margin="74,150,0,0" Name="label3" VerticalAlignment="Top" Width="163" />
+        <ComboBox  SelectedValue="{Binding Model.UnitFrom}" ItemsSource="{Binding Model.UnitsFrom}"  Height="28" HorizontalAlignment="Left" Margin="303,150,0,0" Name="cbUnitsFrom" VerticalAlignment="Top" Width="120" />
+        <Label Content="4. Input final unit:" Height="28" HorizontalAlignment="Left" Margin="73,200,0,0" Name="label4" VerticalAlignment="Top" Width="164" />
+        <ComboBox  SelectedValue="{Binding Model.UnitTo}" ItemsSource="{Binding Model.UnitsTo}" Height="28" HorizontalAlignment="Left" Margin="303,200,0,0" Name="cbUnitsTo" VerticalAlignment="Top" Width="120" />
+        <Label Content="5. Press calculate button:" Height="28" HorizontalAlignment="Left" Margin="73,250,0,0" Name="label5" VerticalAlignment="Top" Width="164" />
+        <Button Content="Calculate" Height="28" HorizontalAlignment="Left" Margin="303,250,0,0" Name="button1" VerticalAlignment="Top" Width="120" Background="#FF00A900" OpacityMask="#FF002BD0" />
+        <Label Content="6 Result:" Height="28" HorizontalAlignment="Left" Margin="73,300,0,0" Name="label6" VerticalAlignment="Top" Width="164" />
+        <TextBlock Text="{Binding Model.Result}" Height="28" HorizontalAlignment="Left" Margin="303,300,0,0" Name="textBlock1" VerticalAlignment="Top" Width="126" />
+    </Grid>
+</Window>
